@@ -17,7 +17,8 @@ def start():
 
     while True:
         # Prompt the user to input the label name
-        label_name = input("Enter label name (or 'q' to quit): ")
+        print("press q twice then again type q in input to quit camera.")
+        label_name = input("Enter person's  name (or 'q' to quit): ")
 
         if label_name.lower() == 'q':
             break
